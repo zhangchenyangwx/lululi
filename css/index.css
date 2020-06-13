@@ -1,0 +1,251 @@
+/*
+* @Author: Administrator
+* @Date:   2020-06-08 09:17:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-06-13 07:47:41
+*/
+
+    .header{
+     	margin: 0 auto;
+     	border:1px solid black;
+	}
+    .container{
+    	height: 98px;
+    	margin: 0 auto;
+    	position:relative;
+    }
+    .logo{
+    	float:left;
+    	margin-left:-10px;
+    	margin-top: 10px;
+    }
+    .nav{
+    	position:absolute;
+    	left:400px;
+    	float:left;
+    	margin-top:30px;
+    }
+    .nav a{
+        font-weight: 500;
+     	font-size:18px;
+        font-family:Microsoft YaHei;
+        color:rgba(5,5,5,1)
+     }
+     .nav li:hover{
+		border-bottom-width:3px;
+		border-bottom-style:solid;
+		border-bottom-color:orange;
+	}
+     .nav li{
+    	float:left;
+		padding:10px 30px;
+	} 
+	.header .form{
+		float: right;
+		height: 50px;
+		margin-top:31px;
+		right: 10px;
+		position: absolute;
+	}
+    .header .form *{
+     	float:left;
+     }
+     .search{
+     	float: left;
+     	width:240px;
+     	padding-top:12px ;
+     	padding-bottom:12px;
+     	padding-left: 19px;
+     	border:1px solid black;
+     	border-left: none;
+     }
+     .submit{
+     	float: left;
+     	width:49px;
+     	height:42px;
+     	background:url(../imgs/search.jpg) no-repeat center center;
+     	border: 1px solid black;
+     	border-right: none;
+     }
+     .top{
+     	height:28px;
+        padding-top: 10px;
+     	font: normal bold 30px '宋体';
+     	float: left;
+     }
+     .banner{
+        background:  rgb(0,0,0) url(../imgs/banner.jpg) no-repeat center center;
+        height: 420px;
+     }
+     .nav-left{
+        height:420px;
+        width: 190px;
+        padding-left: 250px;      
+    }
+    .nav-left ul{
+        width: 101px;
+        height: 370px;
+        padding: 20px 33px 28px 36px;
+        background:rgba(0,0,0,0.3);     
+    }
+    .nav-left a:hover{
+        color: red;
+    }
+    .nav-left a{
+        color:#FFFFFF;
+        line-height: 29px;
+        font-size:14px;
+    }
+    .show{
+        background-color:rgb(255,255,255); 
+        margin-top:50px;
+        height: 1200px;
+    }
+    .Air-Force{
+        float: left;
+        width: 480px;
+        height: 600px;
+        margin-left:30px;
+        display: inline-block;
+    }
+    .Jordan{
+        float: left;
+        width: 480px;
+        height: 600px;
+        margin-left:10px;
+        display: inline-block;
+    }
+    .Air-Barrage{
+        float: left;
+        width: 480px;
+        height: 600px;
+        margin-left:10px;
+        display: inline-block;
+    }
+    .Air-Flight{
+        float: left;
+        width: 480px;
+        height: 600px;
+        margin-left:30px;
+        display: inline-block;
+    }
+    .Air-Foamposite{
+        float: left;
+        width: 480px;
+        height: 600px;
+        margin-left:10px;
+        display: inline-block;
+    }
+    .Kyrie{
+        float: left;
+        width: 480px;
+        height: 600px;
+        margin-left:10px;
+        display: inline-block;
+    }
+    .font1 .left{
+        color: orange;
+        font-size:14px;
+        float: left;
+    }
+    .font1 .right{
+        color: black;
+        font-size: 14px;
+        float: right;
+    }
+    .font2 a{
+        color: black;
+        font-size: 14px;
+    }
+    .font3 a{
+        color: rgba(0,0,0,0.5);
+        font-size: 14px;
+    }
+    .remark{
+        background-color:rgb(0,0,0);
+        height: 160px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    } 
+    .remark-left{
+        margin-left: 100px;
+        float: left;
+    }
+    .font4 a{
+        color:rgb(255,255,255);
+        font-size: 16px;
+    }
+    .font5 a{
+        color: rgba(255,255,255,0.5);
+        font-size: 14px;
+    }
+    .remark-center{
+        margin-left: 200px;
+        float:left;
+    }
+    .remark-right{
+        margin-left: 200px;
+        float: left;
+    }
+    .weixin{
+        float: left;
+        height: 45px;
+        margin-left:600px;
+    }
+    .weibo{
+        float: left;
+        height: 45px;
+        margin-left: 10px;
+    }
+    .last{
+        height: 80px;
+        background-color:rgb(0,0,0);
+        padding-left: 100px;
+    }
+    .hover{
+        float: right;
+        margin-right: 30px;
+    }
+    .pic{
+        float: right;
+        margin-right: 5px;
+    }
+    .last a{
+        color: grey;
+        font-size: 10px;
+    }
+    .last a:hover{
+        color: white;
+    }
+    .last-left{
+        float: left;
+        color: white;
+        font-size: 12px;
+    }
+    .dingwei{
+        margin-bottom: 30px;
+    }
+    .font6{
+        color: white;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .kuaideng{
+        height: 150px;
+        text-align: center;
+        background: url(../imgs/kuaideng.jpg);
+    }
+    .kuaideng .input{
+        margin-top: 5px;
+        height: 35px;
+        width: 300px;
+        color: grey;
+    }
+    .log{
+        width: 50px;
+        text-align:center;
+        background-color: grey;
+        color: white;
+        font-size: 14px;
+        margin-top: 10px;
+    }
